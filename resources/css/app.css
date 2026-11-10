@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    /* Gabungkan Poppins di baris paling depan sebelum font sistem */
+    --font-sans: 'Poppins', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+
+    --color-coffee-hover: #4f2a15;
+    --color-coffee: #33190a;
+    --color-coffee-font: #ecbd63;
+    --color-coffee-font-1: #7b3306;
+    --color-coffee-font-2: #7b3306;
+    --color-coffee-font-3: #9b7938;
+    --color-navbar: #FCF9EA
+}
